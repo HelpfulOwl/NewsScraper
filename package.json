@@ -1,0 +1,27 @@
+{
+  "name": "newsscraper",
+  "version": "1.0.0",
+  "description": "Using Mongo to store news taken from various news sites.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelpfulOwl/NewsScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelpfulOwl/NewsScraper/issues"
+  },
+  "homepage": "https://github.com/HelpfulOwl/NewsScraper#readme"
+}
